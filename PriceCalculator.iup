@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncUpdate_Project>
+  <PathDef Value=""/>
+  <FileList>
+    <File0 FileName="d:\sw-projekte\tools\pricecalculator\bin\pricecalc.exe" PathDef="1" ActionFailed="1" ActionFailedBaseDir="1" ActionFailedCmdLine="PriceCalc.exe /Quit" CancelAllIfDownFailed="False" ForceReboot="False" DownOnlyExist="False" DontOverwrite="False" Description="Anwendungsdatei"/>
+    <File1 FileName="d:\sw-projekte\tools\pricecalculator\bin\updatelang.ini" PathDef="0" ActionFailed="1" ActionFailedBaseDir="0" ActionFailedCmdLine="Update.exe /Quit" CancelAllIfDownFailed="False" ForceReboot="False" DownOnlyExist="False" DontOverwrite="False" Description="Sprachdatei für Updater"/>
+  </FileList>
+  <AppInfo AppPath="{$UPDATE_EXE_PATH}\" AppName="Enothek Preisrechner" AppVer="1.0.2.0" Website="http://www.gilbertsoft.ch" Email="support@gilbertsoft.ch" OutputDir="D:\SW-Projekte\Tools\PriceCalculator\Bin\" ServerOutputDir="D:\SW-Projekte\Tools\PriceCalculator\Distribution\Server\" IndexFileURL="http://ftp.brupel.ch/updates/gs/pricecalc" IndexFileExt="idx" WizCustomImg="True" CustomImg1="D:\SW-Projekte\Images\IncUpdate\d1.bmp" CustomImg2="D:\SW-Projekte\Images\IncUpdate\d2.bmp" CustomImg3="D:\SW-Projekte\Images\IncUpdate\d3.bmp" CustomImg4="D:\SW-Projekte\Images\IncUpdate\d4.bmp" IconFile="" EnableLog="True" DisableCancel="False" MLSupport="True" Description="Version 1.0.2.0&#xA; - Reduktion um 10% bei Auslandweinen" LicenseDLL="" LicenseFunc="" LicenseCRC="0" SvrFileExt="zip" AutoUpload="True" Skin="No skin (Windows native)" IndexFTP="q8/fWWSCBIao14EUbspDx+fZ3QJ2lR3cq8PKT2vFP7rnlNoHYpEFk76UyAQpgAOfrt7MFmqTXtz9u693BvBx9w==" UpdaterName="Update.exe" EncodeFileName="False" RunWithParam="" AlwaysParam=""/>
+  <ServerList Value="q8/fWWSCBIao14EUbs0ZgrnLlVgplgWG49ndAnaVHdiu04ACdpQQgqjIgBB13wGEpNjKFGecEtnn3dsHKJIDg73ew1llmEvE/JHNBXOAFJrn3dcSPp1EuIGRgAJ2lBCCqMiAEHXfAYSk2MoUZ5wS2eeLr3cG8HH0" RequireUsername="False" RandomSvrList="False" Enc="True"/>
+  <CmdLine BeforeUpdate="" AfterUpdate="Application directory\PriceCalc.exe" Always="" ActiveX="" Shortcut="" Delfile=""/>
+</IncUpdate_Project>

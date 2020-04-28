@@ -1,0 +1,51 @@
+unit BusinessProcessPlugIns;
+
+interface
+
+type
+  TBusinessProcessPlugin = class
+  protected
+    function GetNsme: String; virtual; abstract;
+  public
+    constructor Create; virtual;
+
+    property Name: String read GetNsme;
+  end;
+
+  TSalesPriceAlgorithmClass = class of TSalesPriceAlgorithm;
+
+  TSalesPriceAlgorithm = class(TBusinessProcessPlugin)
+  protected
+    FPurchasePrice: Currency;
+    function GetSalesPrice: Currency; virtual; abstract;
+  public
+    constructor Create; override;
+
+    property PurchasePrice: Currency read FPurchasePrice write FPurchasePrice;
+    property SalesPrice: Currency read GetSalesPrice;
+  end;
+
+  TPriceCalculator = class(TBusinessProcessPlugin)
+  public
+    function Round(APrice: Currency): Currency; virtual; abstract;
+  end;
+
+implementation
+
+{ TSalesPriceAlgorithm }
+
+constructor TSalesPriceAlgorithm.Create;
+begin
+  inherited;
+
+  FPurchasePrice := 0;
+end;
+
+{ TBusinessProcessPlugin }
+
+constructor TBusinessProcessPlugin.Create;
+begin
+  inherited Create;
+end;
+
+end.

@@ -1,0 +1,18 @@
+Path=Gilbertsoft\PriceCalculator
+Shortcut=P, "PriceCalc.exe", "Preisrechner", "Preisrechner", "Preisrechner"
+Shortcut=P, "Update.exe", "Preisrechner", "Auf Aktualisierungen prüfen", "Updates auf dem Internet suchen"
+Shortcut=D, "PriceCalc.exe", "", "Preisrechner", "Preisrechner"
+SavePath
+Overwrite=1
+Title=Installation Preisrechner
+Text
+{
+Willkommen zum Preisrechner-Setup. Mit diesem Programm wird Preisrechner auf Ihrem Computer installiert.<P>
+Es wird dringend empfohlen, dass Sie alle Windows-Programme beenden, bevor Sie das Setup ausführen.<P>
+Klicken Sie auf 'Abbruch', um das Setup zu beenden und anschliessend schliessen Sie alle geöffneten Programme. Wählen Sie 'Installieren >', um mit Setup fortzufahren.<P>
+Preisrechner wird im unten erwähnten Verzeichnis installiert. Klicken Sie 'Installieren >' zur Installation in diesem Verzeichnis, 'Durchsuchen...' zur Installation in einem anderen und wählen Sie dieses.<P>
+Klicken Sie 'Abbruch', um Setup zu beenden, wenn Sie Preisrechner nicht installieren möchten.<P>
+<P>
+WARNUNG: Diese Anwendung ist durch Urheberrecht und internationale Vereinbarungen geschützt.<P>
+Unberechtigte Reproduktion oder nicht autorisierter Vertrieb dieser Anwendung oder einer ihrer Komponenten wird gerichtlich verfolgt und kann zu erheblichen Strafen führen.
+}
